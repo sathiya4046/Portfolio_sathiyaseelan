@@ -10,7 +10,7 @@
     color: #00215E;
 
 }
-  .education,.experience,.project,.contact{
+  .education,.experience,.project,.contact,.course{
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: italic;
@@ -65,6 +65,18 @@
   transform: scale(1.03);
   overflow: hidden;
   }
+  #course .col{
+    transition: all 0.9s; 
+    }
+    #course .col:hover{
+      border: 1px solid black;
+      color: #FFF1DB;
+      background-color: #020d21;
+      transform: scale(1.03);
+      overflow: hidden;
+      text-transform: capitalize;
+
+      }
   .card-body{
     background-color: #FFF1DB;
     transition: all .5s;
@@ -79,17 +91,19 @@
     background-color: #FFF1DB;
     border: 1px solid #FFF1DB;
     border-bottom: 1px solid #00215E;
-    color: #EF5A6F;
   }
   form .input:hover{
     background-color: #00215E;
     color: #FFF1DB;
     border-radius: 5px;
   }
-  
     @media screen and (max-width:992px){
       main{
         height: 90vh;
       }
     }
-  
+    @media screen and (max-width:768px){
+      .project{
+        margin-top: 150px;
+      }
+    }
