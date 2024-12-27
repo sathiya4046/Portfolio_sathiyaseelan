@@ -16,26 +16,25 @@
   }
   
   #home{
-  position: relative;
-  top: 50px;
-  height: 80vh;
+    position: relative;
+    top: 50px;
+    height: 80vh;
   }
   #education{
-  position: relative;
-  top: 50px;
+    position: relative;
+    top: 50px;
   }
   .nav-link:hover{
-    background-color: #40A578;
-    border: 1px solid #40A578;
-    border-radius: 8px;
+    background-color: #8D0B41;
+    border: 1px solid white;
+    border-radius: 15px;
     transform: scale(1.1);
     text-align: center;
     font-weight: 700;
+    font-family: "Ga Maamli", sans-serif;
+    letter-spacing: 2px;
   }
-  .btn-success:hover{
-  border-radius: 0;
-  color: #30b8dd;
-  }
+
   
   main{
     height: 60vh;
