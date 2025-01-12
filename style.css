@@ -5,7 +5,7 @@
     font-family: "Comfortaa", serif;
   }
 
-  .education,.experience,.project,.contact,.course{
+  .education,.project,.contact,.course{
     font-family: "Montserrat", serif;
     font-weight: 600;
     font-style: italic;
@@ -49,20 +49,6 @@
 
   #education{
     overflow-x: auto;
-  }
-  #experience .col{
-  transition: all 0.9s; 
-  background-color: white;
-  border: 1px solid #8D0B41;
-  border-radius: 10px;
-  }
-  
-  #experience .col:hover{
-  border: 1px solid #8D0B41;
-  color: white;
-  background-color: #8D0B41;
-  transform: scale(1.03);
-  overflow: hidden;
   }
 
   #course .col{
