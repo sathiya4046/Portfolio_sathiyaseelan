@@ -20,10 +20,7 @@
     top: 50px;
     height: 80vh;
   }
-  #education{
-    position: relative;
-    top: 50px;
-  }
+
   .nav-link:hover{
     background-color: #8D0B41;
     border: 1px solid white;
@@ -67,12 +64,6 @@
       letter-spacing: 1px;
       }
 .card {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  cursor: pointer;
   transition: 700ms;
 }
 
@@ -85,7 +76,7 @@
 .cards:hover > .card:not(:hover) {
   filter: blur(5px);
   transform: scale(0.9, 0.9);
-}
+} 
   form .input{
     background-color: white;
     border: 1px solid white;
@@ -102,8 +93,8 @@
         height: 90vh;
       }
     }
-    @media screen and (max-width:768px){
+    /* @media screen and (max-width:768px){
       .project{
         margin-top: 150px;
       }
-    }
+    } */
