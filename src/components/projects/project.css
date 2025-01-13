@@ -1,0 +1,13 @@
+  .card {
+    transition: 700ms;
+  }
+    .card:hover {
+    transform: scale(1.1, 1.1);
+    background-color: #8D0B41;
+    color: white;
+  }
+  
+  .cards:hover > .card:not(:hover) {
+    filter: blur(5px);
+    transform: scale(0.9, 0.9);
+  } 
