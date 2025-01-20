@@ -6,9 +6,7 @@ const Nav = ({toggleTheme}) => {
     <div>
         <nav className="navbar navbar-expand-xl fixed-top" style={{backgroundColor:"#8D0B41"}} id="navbar">
           <div className="container">
-            <div className='fs-1'>
-            <input onClick={toggleTheme} type="checkbox" class="theme-checkbox"/>
-            </div>
+            <input onClick={toggleTheme} type="checkbox" className="theme-checkbox"/>
             <a className="navbar-brand ms-md-5 text-uppercase fs-1 text-light" href="#home">Sathiyaseelan</a>
             <button className="navbar-toggler text-light border border-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>

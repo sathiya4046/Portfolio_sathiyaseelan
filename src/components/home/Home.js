@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css'
-import { SiMongodb, SiMysql } from 'react-icons/si';
+import { SiMongodb, SiMysql,SiExpress } from 'react-icons/si';
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaNodeJs } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io';
 import { Link } from 'react-router-dom';
@@ -31,10 +31,10 @@ const Home = () => {
                   </h1>
                   <strong>Full stack web developer ( MERN )</strong>
                   <div className='mt-2 fs-4'>&larr; 
-                      <FaHtml5 /> <FaCss3Alt/> <IoLogoJavascript/> <FaBootstrap/> <FaReact/> <FaNodeJs/> <SiMysql/> <SiMongodb/> &rarr;</div>
+                      <FaHtml5 /> <FaCss3Alt/> <IoLogoJavascript/> <FaBootstrap/> <FaReact/> <FaNodeJs/> <SiExpress /> <SiMysql/> <SiMongodb/> &rarr;</div>
                   <p className='mt-4'>I am ready to contribute my innovative ideas to the dynamic field and improve my knowledge through continuous learning and team work...</p>
-                <button className="btn btn-outline-success m-3">Hire me</button>
-                <button className="btn btn-success"><a href='./Sathiyaseelan.pdf' className="text-decoration-none text-light" download="Sathiyaseelan.pdf">Download CV</a></button>
+                <button className="btn btn-success m-3"><a href="mailto:sathiya.4046@gmail.com" className="text-decoration-none text-light">Hire me</a></button>
+                <button className="btn btn-success"><a href='./Sathiya.pdf' className="text-decoration-none text-light" download="Sathiyaa.pdf">Download CV</a></button>
                 
                 <div className='d-flex justify-content-center fs-3 mt-2'>
                       <Link to={'https://www.linkedin.com/in/sathiya4046/'} className='ms-2 p-1 icons'><FaLinkedin/></Link>

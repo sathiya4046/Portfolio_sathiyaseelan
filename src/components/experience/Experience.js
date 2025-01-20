@@ -9,7 +9,7 @@ const Experience = () => {
                 <dl className="col col-md-6 mt-3 p-md-4 mx-auto text-center p-4">
                   <dt className="p-md-2"><h5 className="fw-bold">Jaya Infosoft Pvt ltd, Chennai</h5> </dt>
                   <dd className="p-md-2">Frontend Developer </dd>
-                  <dd className="p-md-2"> May 2022 - Present </dd>
+                  <dd className="p-md-2"> Apr 2023 - Present </dd>
                   <hr/>
                   <dd>
                   <ul>
