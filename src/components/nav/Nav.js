@@ -1,12 +1,16 @@
 import React from 'react'
 import './nav.css'
+import { FaToggleOn } from "react-icons/fa";
 
-const Nav = () => {
+const Nav = ({theme,toggleTheme}) => {
   return (
     <div>
         <nav className="navbar navbar-expand-xl fixed-top" style={{backgroundColor:"#8D0B41"}} id="navbar">
           <div className="container">
-            <a className="navbar-brand ms-5 text-uppercase fs-1 text-light" href="#home">Sathiyaseelan</a>
+            <div className='fs-1'>
+            <FaToggleOn onClick={toggleTheme} className={theme === 'dark' ? 'dark-mode' : ''}>dark</FaToggleOn>
+            </div>
+            <a className="navbar-brand ms-3 text-uppercase fs-1 text-light" href="#home">Sathiyaseelan</a>
             <button className="navbar-toggler text-light border border-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>

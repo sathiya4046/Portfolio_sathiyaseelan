@@ -6,12 +6,25 @@ import Experience from './components/experience/Experience'
 import Projects from './components/projects/Projects'
 import Education from './components/education/Education'
 import Contact from './components/contact/Contact'
+import { useState, useEffect } from 'react';
 
 function App() {
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
+
+  useEffect(() => {
+    document.body.className = theme === 'dark' ? 'dark-mode' : '';
+    localStorage.setItem('theme', theme);
+  }, [theme]); 
+
+  const toggleTheme = () => {
+    setTheme(theme === 'light' ? 'dark' : 'light');
+  };
 
   return (
     <div>
-      <Nav/>
+      <Nav theme ={theme}
+          toggleTheme ={toggleTheme}
+      />
       <Home/>
       <Experience/>
       <Projects/>
