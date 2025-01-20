@@ -5,6 +5,7 @@ import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaHtml5, FaCss3Alt, FaBo
 import { IoLogoJavascript } from 'react-icons/io';
 import { Link } from 'react-router-dom';
 import sathiya from './sath.jpg'
+import 'animate.css';
 
 
 const Home = () => {
@@ -13,7 +14,21 @@ const Home = () => {
           <main className="row d-flex mx-auto">
               <div className="col-md-6 col-lg-6 text-center mt-md-5 p-md-5 align-items-md-center">
                   <small  className='mb-4'>Hello, This is</small>
-                  <h1 className='mb-3 fw-bold'>Sathiyaseelan</h1>
+                  <h1 className='mb-3'>
+                    <span>S</span>
+                    <span>a</span>
+                    <span>t</span>
+                    <span>h</span>
+                    <span>i</span>
+                    <span>y</span>
+                    <span>a</span>
+                    <span>s</span>
+                    <span>e</span>
+                    <span>e</span>
+                    <span>l</span>
+                    <span>a</span>
+                    <span>n</span>
+                  </h1>
                   <strong>Full stack web developer ( MERN )</strong>
                   <div className='mt-2 fs-4'>&larr; 
                       <FaHtml5 /> <FaCss3Alt/> <IoLogoJavascript/> <FaBootstrap/> <FaReact/> <FaNodeJs/> <SiMysql/> <SiMongodb/> &rarr;</div>
