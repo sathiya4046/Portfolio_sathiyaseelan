@@ -48,7 +48,7 @@ const Contact = () => {
         </div>
         
           <div className="text-center p-3">
-            Copyrights &copy; 2024 &rarr;
+            Copyrights &copy; {new Date().getFullYear()} &rarr;
             <a className="text-light" href="#home"> Sathiyaseelan</a>
           </div>
         </footer>
