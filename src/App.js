@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div>
-      <Nav theme ={theme}
+      <Nav
           toggleTheme ={toggleTheme}
       />
       <Home/>
