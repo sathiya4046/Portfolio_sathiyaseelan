@@ -1,12 +1,15 @@
-#course .col{
+.exp{
     transition: all 0.9s; 
     border: 1px solid #8D0B41;
     border-radius: 10px;
-    }
-    #course .col:hover{
-      color: white;
-      background-color: #8D0B41;
-      transform: scale(1.01,1.03);
-      overflow: hidden;
-      letter-spacing: 1px;
-      }
+}
+.exp:hover {
+    transform: scale(1.1, 1.1);
+    background-color: #8D0B41;
+    color: white;
+}
+  
+.experience:hover > .exp:not(:hover) {
+    filter: blur(2px);
+    transform: scale(0.9, 0.9);
+} 

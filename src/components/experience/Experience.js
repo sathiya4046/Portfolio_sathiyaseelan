@@ -3,10 +3,11 @@ import './experience.css'
 
 const Experience = () => {
   return (
-    <div className=" container my-sm-4 p-4 d-flex flex-column" id="course">
+    <div className='container'>
+      <div className="my-sm-4 p-4 d-flex flex-column" id="course">
           <h1 className='text-center my-sm-4 pt-5 course fw-bold'>Experience & Course</h1>
-            <div className="row row-cols-1 row-cols-md-3">
-                <dl className="col col-md-6 mt-3 p-md-4 mx-auto text-center p-4">
+            <div className=" experience row row-cols-1 row-cols-md-3">
+                <dl className="exp col-12 col-md-6 mt-3 p-md-4 mx-auto text-center p-4">
                   <dt className="p-md-2"><h5 className="fw-bold">Jaya Infosoft Pvt ltd, Chennai</h5> </dt>
                   <dd className="p-md-2">Frontend Developer </dd>
                   <dd className="p-md-2"> Apr 2023 - Present </dd>
@@ -22,7 +23,7 @@ const Experience = () => {
                     </ul>
                   </dd>
                 </dl>
-                <dl className="col col-md-5 mt-3 mx-auto p-md-4 text-center p-4">
+                <dl className="exp col-12 col-md-5 mt-3 mx-auto p-md-4 text-center p-4">
                   <dt className="p-md-2"><h5 className="fw-bold">Full Stack Development Bootcamp - Udemy</h5></dt>
                   <dd className="p-md-2">Sep 2023 - Mar 2024</dd>
                   <hr/>
@@ -40,6 +41,7 @@ const Experience = () => {
                 </div>
             
         </div>
+    </div>
   )
 }
 

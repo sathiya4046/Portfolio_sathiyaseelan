@@ -3,10 +3,10 @@ import React  from 'react'
 import Nav from './components/nav/Nav'
 import Home from './components/home/Home'
 import Experience from './components/experience/Experience'
-import Projects from './components/projects/Projects'
 import Education from './components/education/Education'
 import Contact from './components/contact/Contact'
 import { useState, useEffect } from 'react';
+import Projects from './components/projects/Projects';
 
 function App() {
   const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
