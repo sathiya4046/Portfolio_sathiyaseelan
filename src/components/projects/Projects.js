@@ -6,6 +6,7 @@ import ecom from './images/ecom.png'
 import chat from './images/chat.png'
 import netflix from './images/netflix.png'
 import notes from './images/notes thumbnail.png'
+import xClone from './images/x-clone.png'
 
 function Projects() {
 
@@ -15,6 +16,22 @@ function Projects() {
       <h1 className='text-center mb-4 py-2 fw-bold'>Projects</h1>
       <p className="text-center">Apr 2024 - Dec 2024</p>
       <div className='cards row m-3 gap-3'>
+      <div className='col-12 col-lg-5 mx-auto cards-item'>
+                <img src={xClone} alt="Sathiya"/>
+                <div class='info'>
+                  <h1 class='name'>Twitter Clone</h1>
+                  <b class='role'>Reactjs,Material UI, Bootstrap, Nodejs, Expressjs, MongoDB, JWT, TanStack Query</b>
+                </div>
+                <div className="para">
+                <ul class="gap-4">
+                  <li class="mb-2 text-start">Developed a MERN complete full stack social media website, user can do crud operation with the help of tanstack</li>
+                  <li class="mb-2 text-start">Dynamic and responsive user interfaces using React.js, Material UI and Bootstrap ensuring compatibility across various devices and screen sizes.</li>
+                  <li class="mb-2 text-start">Managed application state using React’s built-in state management and hooks for efficient data handling and component updates.</li>
+                  <li class="mb-2 text-start">Enabled user login with authentication checks and session management.</li>
+                </ul>
+                </div>
+                <a href="https://x-clone-dnl2.onrender.com/" class="btn w-100">View</a>  
+            </div>
             <div className='col-12 col-lg-5 mx-auto cards-item'>
                 <img src={notes} alt="Sathiya"/>
                 <div className='info'>
