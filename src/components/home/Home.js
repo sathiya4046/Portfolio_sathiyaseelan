@@ -3,6 +3,7 @@ import './home.css'
 import { SiMongodb, SiMysql,SiExpress } from 'react-icons/si';
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaNodeJs } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io';
+import { RiTailwindCssFill } from "react-icons/ri";
 import { Link } from 'react-router-dom';
 import sathiya from './sath.jpg'
 import 'animate.css';
@@ -31,7 +32,7 @@ const Home = () => {
                   </h1>
                   <strong>Full stack web developer ( MERN )</strong>
                   <div className='mt-2 fs-4'>&larr; 
-                      <FaHtml5 /> <FaCss3Alt/> <IoLogoJavascript/> <FaBootstrap/> <FaReact/> <FaNodeJs/> <SiExpress /> <SiMysql/> <SiMongodb/> &rarr;</div>
+                      <FaHtml5 /> <FaCss3Alt/> <IoLogoJavascript/> <FaBootstrap/> <RiTailwindCssFill /> <FaReact/> <FaNodeJs/> <SiExpress /> <SiMysql/> <SiMongodb/>&rarr;</div>
                   <p className='mt-4'>I am ready to contribute my innovative ideas to the dynamic field and improve my knowledge through continuous learning and team work...</p>
                 <button className="btn btn-success m-3"><a href="mailto:sathiya.4046@gmail.com" className="text-decoration-none text-light">Hire me</a></button>
                 <button className="btn btn-success"><a href='./Sathiya.pdf' className="text-decoration-none text-light" download="Sathiyaa.pdf">Download CV</a></button>

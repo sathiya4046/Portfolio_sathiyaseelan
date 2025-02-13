@@ -13,7 +13,7 @@ function Projects() {
   return (
     <div className='container' id='projects'>
     <div className="m-md-3 p-md-3">
-      <h1 className='text-center mb-4 py-2 fw-bold'>Projects</h1>
+      <h1 className='text-center mb-4 py-2 fw-bold'>Personal Projects</h1>
       <p className="text-center">Apr 2024 - Dec 2024</p>
       <div className='cards row m-3 gap-3'>
       <div className='col-12 col-lg-5 mx-auto cards-item'>
