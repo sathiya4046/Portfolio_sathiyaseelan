@@ -8,9 +8,9 @@ const Experience = () => {
           <h1 className='text-center my-sm-4 pt-5 course fw-bold'>Experience & Course</h1>
             <div className=" experience row row-cols-1 row-cols-md-3">
                 <dl className="exp col-12 col-md-6 mt-3 p-md-4 mx-auto text-center p-4">
-                  <dt className="p-md-2"><h5 className="fw-bold">JLC Solution Pvt ltd, Chennai</h5> </dt>
+                  <dt className="p-md-2"><h5 className="fw-bold">Jaya info-soft Pvt ltd, Chennai</h5> </dt>
                   <dd className="p-md-2">Frontend Developer </dd>
-                  <dd className="p-md-2"> Jan 2024 - Present </dd>
+                  <dd className="p-md-2"> Apr 2023 - Present </dd>
                   <hr/>
                   <dd>
                   <ul>

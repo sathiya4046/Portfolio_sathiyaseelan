@@ -11,6 +11,7 @@ import {
   FaBootstrap,
   FaReact,
   FaNodeJs,
+  FaJava
 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { RiTailwindCssFill } from "react-icons/ri";
@@ -43,7 +44,7 @@ const Home = () => {
           <div className="mt-2 fs-4">
             &larr;
             <FaHtml5 /> <FaCss3Alt /> <IoLogoJavascript /> <FaBootstrap />{" "}
-            <RiTailwindCssFill /> <FaReact /> <FaNodeJs /> <SiExpress />{" "}
+            <RiTailwindCssFill /> <FaReact /> <FaNodeJs /> <SiExpress /> <FaJava />{" "}
             <SiMysql /> <SiMongodb />
             &rarr;
           </div>

@@ -1,7 +1,5 @@
 import React from 'react';
 import './projects.css';
-import portfolio from './images/portfolio.png'
-import matrimony from './images/mat.png'
 import ecom from './images/ecom.png'
 import chat from './images/chat.png'
 import netflix from './images/netflix.png'
@@ -14,7 +12,6 @@ function Projects() {
     <div className='container' id='projects'>
     <div className="m-md-3 p-md-3">
       <h1 className='text-center mb-4 py-2 fw-bold'>Personal Projects</h1>
-      <p className="text-center">Apr 2024 - Dec 2024</p>
       <div className='cards row m-3 gap-3'>
       <div className='col-12 col-lg-5 mx-auto cards-item'>
                 <img src={xClone} alt="Sathiya"/>
@@ -98,34 +95,6 @@ function Projects() {
                 </div>
                 <a href="https://e-commerce-fgki.onrender.com/" className="btn w-100">View</a>
             </div>
-            <div className='col-12 col-lg-5 mx-auto cards-item'>
-                <img src={portfolio} alt="Sathiya"/>
-                <div className='info'>
-                  <h1 className='name'>Portfolio</h1>
-                  <b className='role'>Reactjs,Bootstrap,Css</b>
-                </div>
-                <div className="para">
-                <p className="card-text text-start">I developed my portfolio website using React.js and Bootstrap combining the innovative of React's component-based architecture with Bootstrap's responsive design capabilities...</p>
-                </div>
-                <a href="https://portfolio-sathiya.netlify.app/" className="btn w-100">View</a>
-            </div>
-            <div className='col-12 col-lg-5 mx-auto cards-item'>
-                <img src={matrimony} alt="Sathiya"/>
-                <div className='info'>
-                  <h1 className='name'>Matrimony</h1>
-                  <b className='role'>Reactjs, Bootstrap, Nodejs, Expressjs, MySql, JWT, Oauth, Nodemailer</b>
-                </div>
-                <div className="para">
-                <ul className="gap-4">
-                  <li className="mb-2 text-start">Dynamic and responsive user interfaces using React.js and Bootstrap, ensuring compatibility across various devices and screen sizes.</li>
-                  <li className="mb-2 text-start">Managed application state using React’s built-in state management and hooks for efficient data handling and component updates.</li>
-                  <li className="mb-2 text-start">Enabled user login with authentication checks and session management.</li>
-                  <li className="mb-2 text-start">Using Oauth to maintain session and create Google security</li>
-                </ul>
-                </div>
-                <a href="https://github.com/sathiya4046" className="btn w-100">View</a>
-            </div>
-
       </div>
     </div>
   </div>
